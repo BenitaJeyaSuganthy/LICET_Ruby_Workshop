@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+["benu","jeya","suganthy"]
+do |a|
+if a.length<=10
+puts arr
+end 
+end
+
+=======
+def function(coll)
+coll.each do |x|
+puts x if ((x*2)%5)==0
+end 
+end
+function(coll=[1,2,3,4,5])
+>>>>>>> 262f710e297d4e6099c0aaac948458ae05fb6237
